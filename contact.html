@@ -10,10 +10,25 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="mijncv.html">CV</a></li>
-        <li><a href="contact">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </header>
-
+    <section>
+      <h1>Stuur mij een bericht!</h1>
+        <form id="fromform" action="https://formspree.io/f/mrgdlndp" method="post">
+          <label for="first-name">Voornaam</label>
+          <input id="first-name" type="text" name="Voornaam" placeholder="Voornaam" value="">
+          <label for="last-name">Achternaam</label>
+          <input id="last-name"type="text" name="Achternaam" placeholder="Achternaam" value="">
+          <label for="adres">Adres</label>
+          <input id="adres" type="text" name="Adres" placeholder="Adres" value="">
+          <label for="e-mail">E-mailadres</label>
+          <input id="e-mail" type="email" name="E-mail" placeholder="E-mailadres" value="">
+          <label for="message">Jouw Bericht aan mij.</label>
+          <textarea id="message" name="Bericht" placeholder="Plaats hier je bericht" maxlength="500" ></textarea>
+          <button type="submit">Verzend</button>
+        </form>
+    </section>
     <footer><p>© Robin Bremer 2022</p></footer>
   </body>
 </html>
