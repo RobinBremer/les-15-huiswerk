@@ -131,6 +131,9 @@ form button{
   text-decoration: none;
   font-size: 1.2em;
 }
+form button:hover{
+  cursor:pointer;
+}
 table{
   border-spacing: 0;
   margin-top: 40px;
