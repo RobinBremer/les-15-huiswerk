@@ -29,7 +29,7 @@ img{
   margin: 40px auto 10px auto;
 }
 footer{
-  border-top:2px solid #f5c69c;
+  border-top:2px solid #CD853FCC;
 }
 footer p{
   text-align: center;
@@ -39,7 +39,7 @@ footer p{
   letter-spacing: 0.2em;
 }
 header{
-  border-bottom: 2px solid #f5c69c;
+  border-bottom: 2px solid #CD853FCC;
 }
 h1{
   color: #bb3631;
@@ -62,10 +62,10 @@ header li{
   display: inline-block;
   width: 120px;
   height: 40px;
-  background-color: #f5c69c;
+  background-color: #CD853FCC;
   margin: 40px auto;
   padding: 5px;
-  border: 2px solid #f5c69c;
+  border: 2px solid #CD853FCC;
   border-top-left-radius:2px;
   border-top-right-radius:  2px;
 }
@@ -79,7 +79,7 @@ header li:active, form button:active {
 background-color: GhostWhite!important;
 }
 header li:active a, form button:active{
-  color: #f5c69c!important;
+  color: #CD853FCC!important;
 }
 ul a{
   font-family: 'Fugaz One', cursive;
@@ -96,19 +96,19 @@ input, label, textarea{
 input, textarea{
     padding:5px;
     border-radius:2px;
-    border: 2px solid #f5c69c;
+    border: 2px solid #CD853FCC;
     outline: none;
     background-color: #FFEDDE33;
-
 }
 input{
-  margin-top: 10px;
+  margin-top: 15px;
   width: 330px;
+  height: 35px;
 }
 textarea{
   width: 100%;
   height: 300px;
-  margin-top:25px;
+  margin-top:35px;
 }
 ::placeholder{
   color: #8c7057;
@@ -123,11 +123,42 @@ form button{
   width: 120px;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
-  border: 2px solid #f5c69c;
+  border: 2px solid #CD853FCC;
   height: 40px;
-  background-color: #f5c69c;
+  background-color: #CD853FCC;
   font-family: 'Fugaz One', cursive;
   color: white;
   text-decoration: none;
   font-size: 1.2em;
+}
+table{
+  border-spacing: 0;
+  margin-top: 40px;
+  border-radius: 2px;
+  border: 2px solid #CD853FCC;
+}
+td, th{
+  padding:10px;
+  text-align: left;
+  border-bottom: 2px solid #CD853FCC;
+
+}
+.tableC1{
+  width:70%;
+  padding-right: 20px;
+}
+th{
+  background-color: #CD853FCC;
+  color: white;
+  font-family: 'Fugaz One', cursive;
+  font-weight: normal;
+}
+td{
+  background-color: #FFEDDE33;
+}
+#noborder{
+  border-bottom: none!important;
+}
+#periode{
+  padding-left: 35px;
 }
