@@ -43,9 +43,10 @@ header{
 }
 h1{
   color: #bb3631;
-  margin: 40px 0 20px 0;
+  margin: 50px 0 20px 0;
   font-size:1.9em;
   font-family: 'Fugaz One', cursive;
+  line-height: 1.25em;
 }
 p, td, th, figcaption{
   font-size: 1.18em;
