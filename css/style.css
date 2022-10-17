@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box!important;
+  font-family:'Text Me One', sans-serif;
 }
 body{
   background-color: GhostWhite;
@@ -9,26 +10,30 @@ body{
 }
 header, footer{
   width: 100%;
-  height: 120px;
+  height: 80px;
   background-color: #FFEDDE;
 }
-section{
-  min-height: 90vh;
-  max-width: 700px;
+.canvas{
+  min-height: 100vh;
+  max-width:  1000px;
   margin: 0px auto;
-  padding: 5px 20px 5px 20px;
+  padding: 20px 20px 40px 20px;
   background-color: white;
 }
+.content{
+  max-width: 580px;
+  margin: 0 auto;
+}
 img{
-  max-width: 100%;
-  margin: 20px auto 10px auto;
+  min-width: 100%;
+  margin: 40px auto 10px auto;
 }
 footer{
   border-top:2px solid #f5c69c;
 }
 footer p{
   text-align: center;
-  padding:50px 0 10px 0;
+  padding:30px 0 10px 0;
   color: #8c7057;
   font-size: 0.9em;
   letter-spacing: 0.2em;
@@ -38,13 +43,46 @@ header{
 }
 h1{
   color: #bb3631;
-  margin: 40px 0 40px 0;
+  margin: 40px 0 20px 0;
   font-size:1.9em;
+  font-family: 'Fugaz One', cursive;
 }
 p, td, th, figcaption{
-  font-size: 1.08em;
+  font-size: 1.18em;
 }
-.content{
-  max-width: 520px;
-  margin: 0 auto;
+figcaption{
+  font-style: italic;
+  color: #bbc394;
+}
+header ul{
+  text-align: center;
+}
+header li{
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  background-color: #f5c69c;
+  margin: 40px auto;
+  padding: 5px;
+  border: 2px solid #f5c69c;
+  border-top-left-radius:2px;
+  border-top-right-radius:  2px;
+}
+header li:hover{
+background-color: #bb3631;
+}
+header li:hover a{
+  color: #371700!important;
+}
+header li:active {
+background-color: GhostWhite!important;
+}
+header li:active a{
+  color: #f5c69c!important;
+}
+ul a{
+  font-family: 'Fugaz One', cursive;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
 }
